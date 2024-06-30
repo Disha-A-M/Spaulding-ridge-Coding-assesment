@@ -1,0 +1,31 @@
+﻿<head>
+    <title>Bonus</title>
+    <link href="~/css/CommonStyle.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/themes/8.0.1/default/default-main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2024.2.514/mjs/kendo.all.js" type="module"></script>
+    <script src="https://kendo.cdn.telerik.com/2023.2.514/js/kendo.grid.excel.min.js"></script>
+    @*<script src="./kendo-ui-license.js"></script>*@
+</head>
+
+<body>
+    <div style="margin-top:15px">USER CHOICE</div>
+    <div class="filter-container-block">
+        <div class="filteration-area" style="display:block">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="dropdown-outer-border" style="border: 1px solid #ccc; padding: 10px; display: inline-block;">
+                        <div style="display: inline-block; vertical-align: top">
+                            <label class="dropdown-label">YEAR</label>
+                        </div>
+                        <input id="year" onkeydown="return false" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="chart"></div>
+</body>
+<script type="module" src="~/js/BonusStories.js"></script>
+
+

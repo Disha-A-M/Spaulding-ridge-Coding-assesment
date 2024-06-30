@@ -1,0 +1,168 @@
+﻿
+.grid-container-block
+{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px rgba(41, 39, 85, 0.15);
+}
+
+.dropdown-outer-border .k-widget k-dropdown k-header k-state-border-down {
+    margin-left: -15px !important;
+}
+
+.dropdown-outer-border {
+    min-width: 192px;
+    width: 210PX;
+    margin: 0px 6px 10px 0px;
+    padding: 4px 17px 8px 15px;
+    border-radius: 5px;
+    border: solid 1px rgba(41, 39, 85, 0.15);
+    background-color: white;
+    max-height: 58px;
+}
+
+.dropdown-label {
+    margin: 0px 0px 0 4px;
+    font-family: Open Sans !important;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6c7377
+}
+
+.filter-container-block {
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px #dfdfe6;
+    background-color: #fafbfc;
+}
+
+/*****************************************************************************************************************************/
+/*Kendo Grid css styles Starts here*/
+.k-table-td {
+    font-size: 15px;
+}
+
+.k-grid {
+    border-radius: 5px;
+    border-top: none !important;
+}
+
+.k-link {
+    color: #292755 !important;
+}
+
+.k-grid-toolbar {
+    border-width: 0 !important;
+}
+
+.k-grid-toolbar, .k-grid-header, .k-grid-pager {
+    background: none #e8f1ff;
+    background-color: #e8f1ff !important;
+    border-bottom: solid 1px rgba(41, 39, 85, 0.15);
+    padding: 0;
+}
+
+.k-grid-footer-wrap, .k-grid-header-wrap {
+    border-style: none;
+}
+
+
+.k-grid table tr.k-state-selected {
+    background-color: #6aacff !important;
+    border-color: #6aacff;
+}
+
+/*Height of the Kendo Grid Header*/
+.k-grid-header {
+    border-top: solid 1px rgba(41, 39, 85, 0.15);
+    padding-right: 7px !important;
+}
+
+    .k-grid-header th.k-header {
+        background: none #e8f1ff;
+        vertical-align: middle;
+        background-color: #e8f1ff;
+        text-align: center;
+        white-space: normal;
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: max(15px);
+    }
+
+        .k-grid-header th.k-header > .k-link {
+            margin: 0;
+            padding: 0;
+        }
+
+.k-state-active > .k-link {
+    color: #fa9101 !important;
+    opacity: 1 !important;
+}
+
+/*Height of the each row in k grid content*/
+.k-grid-content tr {
+    background-color: white;
+}
+
+
+.k-grid-content-locked tr td {
+    color: #292755;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(41, 39, 85, 0.15);
+}
+
+/*Color of the text in k grid content*/
+.k-grid-content td {
+    text-align: center;
+    color: #292755;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(41, 39, 85, 0.15);
+}
+
+.k-grid-header th.k-header {
+    text-align: center;
+}
+
+.k-grid-content tr td .k-button, .k-grid-toolbar .k-button {
+    /*height: 28px;*/
+    min-width: 84px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #fa9101 !important;
+    border-radius: 75px !important;
+    border: solid 1px #fa9203 !important;
+    background-color: #ffffff !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 4px;
+}
+
+/*Custom Grid Styles Using Custom Clases::::: Except the Height the Styles will be aplied here and */
+/*height has to be applied in respective class accordingly using Same Class*/
+.grid-container-block {
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 98%;
+    border-radius: 5px;
+    border: solid 1px rgba(41, 39, 85, 0.15);
+}
+/*Kendo Grid css styles Ends here*/
+.k-grid ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+.k-grid-content .stringType {
+    text-align: left;
+}
+
